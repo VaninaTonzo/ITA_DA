@@ -1,6 +1,35 @@
 -- Sprint 2 Bases de datos Relacionales e Introducción a SQL
 -- Vanina Tonzo
+-- Creamos la base de datos y las tablas
+CREATE DATABASE IF NOT EXISTS transactions;
+USE transactions;
 
+-- Creamos la tabla company
+CREATE TABLE IF NOT EXISTS company (
+	id VARCHAR(15) PRIMARY KEY,
+	company_name VARCHAR(255),
+	phone VARCHAR(15),
+	email VARCHAR(100),
+	country VARCHAR(100),
+	website VARCHAR(255)
+    );
+
+
+-- Creamos la tabla transaction
+CREATE TABLE IF NOT EXISTS transaction (
+	id VARCHAR(255) PRIMARY KEY,
+	credit_card_id VARCHAR(15), -- REFERENCES credit_card(id),
+	company_id VARCHAR(20), 
+	user_id INT, -- REFERENCES user(id),
+	lat FLOAT,
+	longitude FLOAT,
+	timestamp TIMESTAMP,
+	amount DECIMAL(10, 2),
+	declined BOOLEAN,
+	FOREIGN KEY (company_id) REFERENCES company(id) 
+    );
+
+    
 -- Nivel 1
 -- Ejercicio 1
 SHOW TABLES;
@@ -33,23 +62,29 @@ SELECT c.company_name AS 'Company Name', ROUND(AVG(t.amount),2) AS 'Average Sale
 FROM company c
 JOIN transaction t
   ON c.id = t.company_id
-GROUP BY c.company_name
+GROUP BY c.id
 ORDER BY 'Average Sales' DESC
 LIMIT 1;
 
 
 -- Ejercicio 3
 -- 1. Transacciones realizadas por empresas de Alemania
-SELECT t.id  AS 'Transaction Id', t.company_id 'Company Id', t.amount AS 'Amount' 
+SELECT 
+	t.id  AS 'Transaction Id', 
+    t.company_id AS 'Company Id', 
+    t.amount AS 'Amount' 
 FROM transaction t
-WHERE t.company_id IN (
+WHERE EXISTS (
     SELECT c.id
     FROM company c
-    WHERE c.country = 'Germany'
+    WHERE c.id = t.company_id
+    AND c.country = 'Germany'
 );
 
 -- 2. Empresas con transacciones por encima de la media global
-SELECT c.id AS 'Company Id', c.company_name AS 'Company Name'
+SELECT 
+	c.id AS 'Company Id', 
+	c.company_name AS 'Company Name'
 FROM company c
 WHERE c.id IN (
 	SELECT t.company_id
@@ -58,7 +93,10 @@ WHERE c.id IN (
 
 
 -- 3.Empresas sin transacciones (listado antes de eliminar)
-SELECT c.company_name AS 'Company Name', c.id AS 'Company Id', c.country AS 'Country'
+SELECT 
+	c.company_name AS 'Company Name', 
+	c.id AS 'Company Id', 
+    c.country AS 'Country'
 FROM company c
 WHERE c.id  NOT IN (
 	SELECT t.company_id
@@ -78,7 +116,9 @@ LIMIT 5;
 
 -- Exercici 2
 -- Media de ventas por país (orden descendente)
-SELECT c.country AS 'Country', ROUND(AVG(t.amount),2) AS 'Average sales'
+SELECT 
+	c.country AS 'Country', 
+    ROUND(AVG(t.amount),2) AS 'Average sales'
 FROM company c
 JOIN transaction t
   ON c.id = t.company_id
@@ -91,8 +131,10 @@ ORDER BY 'Average sales' DESC;
 SELECT 
     t.id AS 'Transaction id', 
     c.company_name AS 'Company name', 
-    c.country AS 'Country', 
-    t.amount AS 'Amount'
+    c.country AS 'Country',
+    c.email AS Email,
+    t.amount AS 'Amount',
+    t.declined AS Declined
 FROM transaction t
 JOIN company c ON t.company_id = c.id
 WHERE c.country = (
@@ -103,20 +145,20 @@ WHERE c.country = (
 
 -- Usando SUBCONSULTAS
 SELECT 
-    t.id AS 'Transaction id',
-    t.company_id AS 'Company Id',
+    t.id AS 'Transaction id', 
+    c.company_name AS 'Company name', 
+    c.country AS 'Country',
+    c.email AS Email,
     t.amount AS 'Amount',
-    t.declined AS 'Declined'
-FROM transaction t
-WHERE t.company_id IN (
-	SELECT c.id
-    FROM company c
-	WHERE c.country = (
-		SELECT c.country 
-		FROM company c
-		WHERE c.company_name = 'Non Institute'));
-
-
+    t.declined AS Declined
+FROM transaction t, company c  
+WHERE t.company_id = c.id      
+  AND c.country = (
+      SELECT country 
+      FROM company 
+      WHERE company_name = 'Non Institute'
+  );
+  
 -- Nivel 3
 -- Ejercicio 1
 -- Empresas con transacciones entre 350 y 400 euros en fechas específicas
@@ -130,7 +172,7 @@ SELECT
 FROM transaction t
 JOIN company c ON t.company_id = c.id
 WHERE t.amount BETWEEN 350 AND 400
-	AND DATE(t.timestamp) IN ('2015-04-29','2018-20-07','2024-13-03') 
+	AND DATE(t.timestamp) IN ('2015-04-29','2018-07-20','2024-03-23') 
 ORDER BY 'Amount' DESC;
 
 -- Exercici 2
