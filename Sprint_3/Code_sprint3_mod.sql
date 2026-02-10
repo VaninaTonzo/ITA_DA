@@ -1,7 +1,7 @@
 -- SPRINT 3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Vanina Tonzo
 -- Usamos la base de datos
 USE transactions;
-
+-- TABLES CREATED IN SPRINT 2 >>>> company and transaction (that are part of this sprint):
  -- Creamos la tabla company
     CREATE TABLE IF NOT EXISTS company (
         id VARCHAR(15) PRIMARY KEY,
@@ -25,7 +25,8 @@ USE transactions;
         declined BOOLEAN,
         FOREIGN KEY (company_id) REFERENCES company(id) 
     );
-    
+-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+-- SPRINT 3
 -- LEVEL 1 
 -- Exercise 1
 -- We create the table Credit Card
@@ -46,30 +47,17 @@ FROM transaction t
 LEFT JOIN credit_card cc ON t.credit_card_id = cc.id
 WHERE cc.id IS NULL;
 
--- Example
-SELECT c.id
-FROM credit_card c
-WHERE c.id = "CcU-3792";
-
--- Now we insert these NULL values at the parent table credit_card
-INSERT INTO credit_card (id)
-SELECT DISTINCT t.credit_card_id -- unique values
-FROM transaction t
-LEFT JOIN credit_card cc ON t.credit_card_id = cc.id
-WHERE cc.id IS NULL AND t.credit_card_id IS NOT NULL;
-
 -- We add a new fk at the transaction table
 ALTER TABLE transaction 
-ADD CONSTRAINT fk_transaction_ccard
-FOREIGN KEY (credit_card_id) 
-REFERENCES credit_card(id);
+ADD CONSTRAINT fk_transaction_ccard FOREIGN KEY (credit_card_id) REFERENCES credit_card(id);
 
 -- Exercise 2
--- First we demonstrate that Iban does not exist
-SELECT iban 
+-- First we show iban for this card id
+SELECT id, iban 
 FROM credit_card 
-WHERE iban = 'TR323456312213576817699999' ; 
+WHERE id = 'CcU-2938';
 
+-- we put right iban number
 UPDATE credit_card 
 SET iban = 'TR323456312213576817699999' 
 WHERE id = 'CcU-2938';
@@ -169,19 +157,62 @@ CREATE TABLE IF NOT EXISTS user (
 	address VARCHAR(255)    
 );
 
--- b. Code modifications in table user
+-- a. Code modifications in table user
 ALTER TABLE user RENAME TO data_user, -- Table rename
                  MODIFY COLUMN id INT, -- col change datatype
                  RENAME COLUMN email TO personal_email; -- column rename
--- c. Code modifications in table company
+                 
+-- b. Code modifications in table company
 ALTER TABLE company
                  DROP COLUMN website; -- delete column website
                  
+-- c. Code modifications in table transaction
+ALTER TABLE transaction 
+				MODIFY COLUMN credit_card_id VARCHAR(20); 
+-- we add fk in transaction table fk show error 1452, so first we look for null values
+-- ALTER TABLE transaction
+--     ADD CONSTRAINT fk_transaction_user_id 
+--     FOREIGN KEY (user_id) REFERENCES data_user(id) 
+--     ON UPDATE CASCADE;
+    
+SELECT DISTINCT t.user_id 
+FROM transaction t
+LEFT JOIN data_user du ON t.user_id = du.id
+WHERE du.id IS NULL;
+
+SELECT *
+FROM data_user
+WHERE id = 9999;
+
+INSERT INTO data_user (id)
+VALUES ('9999');
+
+SELECT *
+FROM data_user
+WHERE id = 9999;
+
+-- Now we add fk in transaction table
+ALTER TABLE transaction
+    ADD CONSTRAINT fk_transaction_user_id 
+    FOREIGN KEY (user_id) REFERENCES data_user(id) 
+    ON UPDATE CASCADE;   
+    
+ALTER TABLE transaction DROP CONSTRAINT fk_transaction_ccard;
 -- d. Code modifications in table credit_card
 ALTER TABLE credit_card
                  ADD fecha_actual DATE, -- add new column + datatype
-                 MODIFY COLUMN cvv INT;
-               
+                 MODIFY COLUMN id VARCHAR(20),
+                 MODIFY COLUMN iban VARCHAR(50),
+                 MODIFY COLUMN pin VARCHAR(4),
+				 MODIFY COLUMN cvv INT,
+                 MODIFY COLUMN expiring_date VARCHAR(20)
+                 ;
+-- e. NEW Code modifications in table transaction                 
+ALTER TABLE transaction
+	ADD CONSTRAINT fk_transaction_ccard
+	FOREIGN KEY (credit_card_id) REFERENCES credit_card(id)
+	ON UPDATE CASCADE; 
+              
 
 -- Exercise 2
 CREATE OR REPLACE VIEW InformeTecnico AS 
