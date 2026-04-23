@@ -1,0 +1,138 @@
+Id_num,Nom,Cognoms,País d'origen,Ciutat,Day,Month,Year,Gènere,Salari mensual,Fills,No Fills,Grup Professional,Full Name,Spanish,Children,Date_of_birth,Age,Grup,Increment,New_salary
+435,Anna,Müller,Alemanya,Hamburg,1,1,1987,Woman,2.464,,1.0,Grup C,Anna Müller,Non,No,1987-01-01,39,Grup C,2.0,2.51
+444,Laura,Schmidt Müller,Alemanya,Hamburg,15,6,1987,NaN,2.035,1.0,,Grup C,Laura Schmidt Müller,Non,Yes,1987-06-15,38,Grup C,2.0,2.08
+948,Anna,Fischer,Alemanya,Hamburg,14,5,1985,Woman,2.443,1.0,,Grup C,Anna Fischer,Non,Yes,1985-05-14,40,Grup C,2.0,2.49
+990,Felix,Schmidt Schmidt,Alemanya,Hamburg,20,10,1951,Man,1.971,,1.0,Grup C,Felix Schmidt Schmidt,Non,No,1951-10-20,74,Grup C,2.0,2.01
+29,Tomás,Rodríguez Fernández,Argentina,Còrdova,20,4,1986,Man,2.584,1.0,,Grup C,Tomás Rodríguez Fernández,Non,Yes,1986-04-20,40,Grup C,2.0,2.64
+48,Tomás,Fernández Álvarez,Argentina,Còrdova,8,9,1958,Man,2.481,,1.0,Grup C,Tomás Fernández Álvarez,Non,No,1958-09-08,67,Grup C,2.0,2.53
+579,Juan,Gómez Gómez,Argentina,Còrdova,9,10,1994,Man,1.685,1.0,,Grup C,Juan Gómez Gómez,Non,Yes,1994-10-09,31,Grup C,2.0,1.72
+137,Valentina,Castro,Colòmbia,Bogotà,2,9,1951,Woman,2.597,1.0,,Grup C,Valentina Castro,Non,Yes,1951-09-02,74,Grup C,2.0,2.65
+386,Sara,Gutiérrez,Colòmbia,Bogotà,12,6,1954,Woman,2.656,1.0,,Grup C,Sara Gutiérrez,Non,Yes,1954-06-12,71,Grup C,2.0,2.71
+442,Daniel,Gutiérrez Castro,Colòmbia,Bogotà,8,7,1951,Man,2.642,,1.0,Grup C,Daniel Gutiérrez Castro,Non,No,1951-07-08,74,Grup C,2.0,2.69
+829,Daniela,Castro,Colòmbia,Bogotà,5,2,1954,Woman,2.03,1.0,,Grup C,Daniela Castro,Non,Yes,1954-02-05,72,Grup C,2.0,2.07
+834,Andrés,Gutiérrez Rojas,Colòmbia,Bogotà,18,3,1986,Man,2.685,,1.0,Grup C,Andrés Gutiérrez Rojas,Non,No,1986-03-18,40,Grup C,2.0,2.74
+337,Andrés,Rojas Castro,Colòmbia,Medellín,20,9,1974,Man,2.397,,1.0,Grup C,Andrés Rojas Castro,Non,No,1974-09-20,51,Grup C,2.0,2.44
+109,Toni,Ferrer,Espanya,Barcelona,12,4,1985,Man,2.639,,1.0,Grup C,Toni Ferrer,Non,No,1985-04-12,41,Grup C,2.0,2.69
+186,Marta,Martínez Castells,Espanya,Barcelona,16,7,1977,Woman,2.452,1.0,,Grup C,Marta Martínez Castells,Non,Yes,1977-07-16,48,Grup C,2.0,2.5
+334,Jordi,García Romero,Espanya,Barcelona,28,5,1952,Man,2.547,1.0,,Grup C,Jordi García Romero,Non,Yes,1952-05-28,73,Grup C,2.0,2.6
+348,Pau,Castells,Espanya,Barcelona,22,1,1986,Man,2.208,,1.0,Grup C,Pau Castells,Non,No,1986-01-22,40,Grup C,2.0,2.25
+364,Joan,Martínez,Espanya,Barcelona,14,9,1999,Man,2.725,,1.0,Grup C,Joan Martínez,Non,No,1999-09-14,26,Grup C,2.0,2.78
+439,Núria,Martínez,Espanya,Barcelona,19,6,1981,Woman,1.939,,1.0,Grup C,Núria Martínez,Non,No,1981-06-19,44,Grup C,2.0,1.98
+441,Joan,López Ferrer,Espanya,Barcelona,21,6,1951,Man,2.789,,1.0,Grup C,Joan López Ferrer,Non,No,1951-06-21,74,Grup C,2.0,2.84
+452,Arnau,López Sánchez,Espanya,Barcelona,22,5,1951,Man,1.69,1.0,,Grup C,Arnau López Sánchez,Non,Yes,1951-05-22,74,Grup C,2.0,1.72
+454,Oriol,Castells,Espanya,Barcelona,8,7,1950,Man,2.78,1.0,,Grup C,Oriol Castells,Non,Yes,1950-07-08,75,Grup C,2.0,2.84
+467,Laia,Romero,Espanya,Barcelona,17,4,1962,Woman,1.761,,1.0,Grup C,Laia Romero,Non,No,1962-04-17,64,Grup C,2.0,1.8
+532,Oriol,Martínez,Espanya,Barcelona,9,7,2002,Man,2.019,1.0,,Grup C,Oriol Martínez,Non,Yes,2002-07-09,23,Grup C,2.0,2.06
+624,Núria,Ferrer,Espanya,Barcelona,10,4,1957,Woman,2.366,,1.0,Grup C,Núria Ferrer,Non,No,1957-04-10,69,Grup C,2.0,2.41
+709,Núria,Martínez Sánchez,Espanya,Barcelona,23,7,1999,Woman,2.185,1.0,,Grup C,Núria Martínez Sánchez,Non,Yes,1999-07-23,26,Grup C,2.0,2.23
+718,Carla,Ferrer,Espanya,Barcelona,17,12,1963,Woman,1.928,1.0,,Grup C,Carla Ferrer,Non,Yes,1963-12-17,62,Grup C,2.0,1.97
+785,Jordi,Sánchez,Espanya,Barcelona,1,3,1976,Man,1.761,,1.0,Grup C,Jordi Sánchez,Non,No,1976-03-01,50,Grup C,2.0,1.8
+805,Jordi,Martínez Sánchez,Espanya,Barcelona,12,12,1970,Man,2.662,1.0,,Grup C,Jordi Martínez Sánchez,Non,Yes,1970-12-12,55,Grup C,2.0,2.72
+806,Arnau,Martínez López,Espanya,Barcelona,5,9,1979,Man,2.294,,1.0,Grup C,Arnau Martínez López,Non,No,1979-09-05,46,Grup C,2.0,2.34
+926,Joan,Romero,Espanya,Barcelona,8,1,1985,Man,2.39,,1.0,Grup C,Joan Romero,Non,No,1985-01-08,41,Grup C,2.0,2.44
+941,Marc,Castells,Espanya,Barcelona,15,6,1952,Man,2.607,1.0,,Grup C,Marc Castells,Non,Yes,1952-06-15,73,Grup C,2.0,2.66
+987,Toni,Castells,Espanya,Barcelona,20,10,1984,Man,1.832,,1.0,Grup C,Toni Castells,Non,No,1984-10-20,41,Grup C,2.0,1.87
+998,Jordi,García,Espanya,Barcelona,23,5,1984,Man,1.699,1.0,,Grup C,Jordi García,Non,Yes,1984-05-23,41,Grup C,2.0,1.73
+11,Marta,Martínez Martínez,Espanya,Bilbao,23,8,1995,NaN,2.007,,1.0,Grup C,Marta Martínez Martínez,Non,No,1995-08-23,30,Grup C,2.0,2.05
+42,Núria,Castells,Espanya,Bilbao,14,11,1960,NaN,2.8,1.0,,Grup C,Núria Castells,Non,Yes,1960-11-14,65,Grup C,2.0,2.86
+88,Marc,Sánchez López,Espanya,Bilbao,6,8,1990,Man,1.987,,1.0,Grup C,Marc Sánchez López,Non,No,1990-08-06,35,Grup C,2.0,2.03
+112,Toni,García,Espanya,Bilbao,28,10,1998,Man,2.714,1.0,,Grup C,Toni García,Non,Yes,1998-10-28,27,Grup C,2.0,2.77
+146,Eva,Castells García,Espanya,Bilbao,18,3,1993,Woman,2.628,,1.0,Grup C,Eva Castells García,Non,No,1993-03-18,33,Grup C,2.0,2.68
+171,Pau,Ferrer López,Espanya,Bilbao,22,11,1960,Man,2.57,1.0,,Grup C,Pau Ferrer López,Non,Yes,1960-11-22,65,Grup C,2.0,2.62
+208,Marc,Romero Romero,Espanya,Bilbao,8,8,1959,Man,2.18,1.0,,Grup C,Marc Romero Romero,Non,Yes,1959-08-08,66,Grup C,2.0,2.22
+297,Oriol,Romero Sánchez,Espanya,Bilbao,6,2,1997,Man,2.788,1.0,,Grup C,Oriol Romero Sánchez,Non,Yes,1997-02-06,29,Grup C,2.0,2.84
+401,Toni,López,Espanya,Bilbao,26,1,1998,Man,1.862,,1.0,Grup C,Toni López,Non,No,1998-01-26,28,Grup C,2.0,1.9
+469,Eva,Sánchez Castells,Espanya,Bilbao,23,9,1987,Woman,2.616,1.0,,Grup C,Eva Sánchez Castells,Non,Yes,1987-09-23,38,Grup C,2.0,2.67
+478,Núria,Martínez Ferrer,Espanya,Bilbao,27,3,1965,Woman,2.293,,1.0,Grup C,Núria Martínez Ferrer,Non,No,1965-03-27,61,Grup C,2.0,2.34
+485,Marc,Castells,Espanya,Bilbao,11,9,1984,Man,1.844,,1.0,Grup C,Marc Castells,Non,No,1984-09-11,41,Grup C,2.0,1.88
+521,Marta,López,Espanya,Bilbao,2,9,1954,Others,1.922,1.0,,Grup C,Marta López,Non,Yes,1954-09-02,71,Grup C,2.0,1.96
+540,Marc,Martínez Sánchez,Espanya,Bilbao,21,12,1965,Man,2.247,1.0,,Grup C,Marc Martínez Sánchez,Non,Yes,1965-12-21,60,Grup C,2.0,2.29
+552,Toni,Sánchez Romero,Espanya,Bilbao,18,12,1952,Man,2.034,,1.0,Grup C,Toni Sánchez Romero,Non,No,1952-12-18,73,Grup C,2.0,2.07
+629,Laia,Sánchez Romero,Espanya,Bilbao,4,12,1960,Woman,2.06,1.0,,Grup C,Laia Sánchez Romero,Non,Yes,1960-12-04,65,Grup C,2.0,2.1
+644,Jordi,Romero García,Espanya,Bilbao,5,12,1978,Man,1.948,1.0,,Grup C,Jordi Romero García,Non,Yes,1978-12-05,47,Grup C,2.0,1.99
+713,Toni,López García,Espanya,Bilbao,23,2,1976,Man,2.485,,1.0,Grup C,Toni López García,Non,No,1976-02-23,50,Grup C,2.0,2.53
+750,Joan,Ferrer García,Espanya,Bilbao,5,5,1995,Man,2.856,1.0,,Grup C,Joan Ferrer García,Non,Yes,1995-05-05,30,Grup C,2.0,2.91
+791,Toni,Romero Ferrer,Espanya,Bilbao,13,12,1970,Man,2.346,,1.0,Grup C,Toni Romero Ferrer,Non,No,1970-12-13,55,Grup C,2.0,2.39
+929,Jordi,Castells López,Espanya,Bilbao,12,2,1961,Man,2.36,1.0,,Grup C,Jordi Castells López,Non,Yes,1961-02-12,65,Grup C,2.0,2.41
+935,Joan,Romero García,Espanya,Bilbao,25,1,1954,Man,2.016,,1.0,Grup C,Joan Romero García,Non,No,1954-01-25,72,Grup C,2.0,2.06
+977,Joan,López García,Espanya,Bilbao,21,11,1987,Man,2.629,,1.0,Grup C,Joan López García,Non,No,1987-11-21,38,Grup C,2.0,2.68
+985,Clara,Romero López,Espanya,Bilbao,11,1,1955,Others,2.371,1.0,,Grup C,Clara Romero López,Non,Yes,1955-01-11,71,Grup C,2.0,2.42
+55,Laia,López,Espanya,Madrid,11,7,1964,NaN,2.063,1.0,,Grup C,Laia López,Non,Yes,1964-07-11,61,Grup C,2.0,2.1
+56,Pau,Sánchez,Espanya,Madrid,8,10,2001,Man,2.091,,1.0,Grup C,Pau Sánchez,Non,No,2001-10-08,24,Grup C,2.0,2.13
+82,Marc,García,Espanya,Madrid,19,10,1955,Man,2.176,1.0,,Grup C,Marc García,Non,Yes,1955-10-19,70,Grup C,2.0,2.22
+94,Pau,Romero Romero,Espanya,Madrid,6,12,1988,Man,2.722,,1.0,Grup C,Pau Romero Romero,Non,No,1988-12-06,37,Grup C,2.0,2.78
+116,Arnau,Castells Castells,Espanya,Madrid,7,11,1963,Man,2.157,,1.0,Grup C,Arnau Castells Castells,Non,No,1963-11-07,62,Grup C,2.0,2.2
+119,Arnau,Romero,Espanya,Madrid,26,6,1985,Man,2.736,,1.0,Grup C,Arnau Romero,Non,No,1985-06-26,40,Grup C,2.0,2.79
+148,Clara,Romero,Espanya,Madrid,5,12,1986,Woman,2.543,,1.0,Grup C,Clara Romero,Non,No,1986-12-05,39,Grup C,2.0,2.59
+227,Eva,García Martínez,Espanya,Madrid,10,7,1965,Woman,1.994,1.0,,Grup C,Eva García Martínez,Non,Yes,1965-07-10,60,Grup C,2.0,2.03
+243,Marc,Castells,Espanya,Madrid,28,11,1976,Man,2.217,,1.0,Grup C,Marc Castells,Non,No,1976-11-28,49,Grup C,2.0,2.26
+347,Carla,Romero,Espanya,Madrid,8,11,1991,Woman,2.517,1.0,,Grup C,Carla Romero,Non,Yes,1991-11-08,34,Grup C,2.0,2.57
+385,Arnau,Ferrer Sánchez,Espanya,Madrid,17,7,1964,Man,2.311,,1.0,Grup C,Arnau Ferrer Sánchez,Non,No,1964-07-17,61,Grup C,2.0,2.36
+411,Laia,García García,Espanya,Madrid,8,12,1972,Woman,2.225,1.0,,Grup C,Laia García García,Non,Yes,1972-12-08,53,Grup C,2.0,2.27
+606,Oriol,López Martínez,Espanya,Madrid,17,3,1978,Man,2.283,1.0,,Grup C,Oriol López Martínez,Non,Yes,1978-03-17,48,Grup C,2.0,2.33
+663,Marta,López,Espanya,Madrid,16,7,2001,Woman,1.963,1.0,,Grup C,Marta López,Non,Yes,2001-07-16,24,Grup C,2.0,2.0
+682,Pau,Sánchez Martínez,Espanya,Madrid,2,3,1981,Man,2.51,1.0,,Grup C,Pau Sánchez Martínez,Non,Yes,1981-03-02,45,Grup C,2.0,2.56
+700,Jordi,López,Espanya,Madrid,27,4,1996,Man,2.843,1.0,,Grup C,Jordi López,Non,Yes,1996-04-27,29,Grup C,2.0,2.9
+881,Arnau,García Romero,Espanya,Madrid,13,12,1970,Man,2.316,,1.0,Grup C,Arnau García Romero,Non,No,1970-12-13,55,Grup C,2.0,2.36
+896,Marc,Castells,Espanya,Madrid,3,8,1978,Man,1.744,,1.0,Grup C,Marc Castells,Non,No,1978-08-03,47,Grup C,2.0,1.78
+19,Joan,López,Espanya,Sevilla,13,10,1964,Man,2.605,1.0,,Grup C,Joan López,Non,Yes,1964-10-13,61,Grup C,2.0,2.66
+74,Marta,Ferrer López,Espanya,Sevilla,19,7,1969,NaN,2.423,,1.0,Grup C,Marta Ferrer López,Non,No,1969-07-19,56,Grup C,2.0,2.47
+185,Clara,Martínez,Espanya,Sevilla,4,7,2001,Woman,2.526,1.0,,Grup C,Clara Martínez,Non,Yes,2001-07-04,24,Grup C,2.0,2.58
+192,Clara,Ferrer,Espanya,Sevilla,21,12,1999,Others,2.393,1.0,,Grup C,Clara Ferrer,Non,Yes,1999-12-21,26,Grup C,2.0,2.44
+242,Eva,Martínez,Espanya,Sevilla,18,3,1986,Woman,1.8,,1.0,Grup C,Eva Martínez,Non,No,1986-03-18,40,Grup C,2.0,1.84
+247,Arnau,Sánchez,Espanya,Sevilla,13,11,1967,Man,2.069,,1.0,Grup C,Arnau Sánchez,Non,No,1967-11-13,58,Grup C,2.0,2.11
+306,Carla,Ferrer,Espanya,Sevilla,11,9,1955,Woman,2.06,1.0,,Grup C,Carla Ferrer,Non,Yes,1955-09-11,70,Grup C,2.0,2.1
+340,Arnau,Martínez,Espanya,Sevilla,3,6,1962,Man,1.844,1.0,,Grup C,Arnau Martínez,Non,Yes,1962-06-03,63,Grup C,2.0,1.88
+345,Carla,Sánchez,Espanya,Sevilla,2,1,1952,Woman,1.786,,1.0,Grup C,Carla Sánchez,Non,No,1952-01-02,74,Grup C,2.0,1.82
+384,Eva,Romero Romero,Espanya,Sevilla,26,2,1954,Woman,1.732,,1.0,Grup C,Eva Romero Romero,Non,No,1954-02-26,72,Grup C,2.0,1.77
+508,Joan,Martínez Romero,Espanya,Sevilla,20,4,1994,NaN,1.835,,1.0,Grup C,Joan Martínez Romero,Non,No,1994-04-20,32,Grup C,2.0,1.87
+562,Anna,Ferrer,Espanya,Sevilla,25,5,2000,Woman,2.164,,1.0,Grup C,Anna Ferrer,Non,No,2000-05-25,25,Grup C,2.0,2.21
+671,Oriol,Sánchez,Espanya,Sevilla,27,2,1958,Man,2.539,,1.0,Grup C,Oriol Sánchez,Non,No,1958-02-27,68,Grup C,2.0,2.59
+678,Joan,Romero,Espanya,Sevilla,10,11,1952,Man,1.904,,1.0,Grup C,Joan Romero,Non,No,1952-11-10,73,Grup C,2.0,1.94
+722,Jordi,García,Espanya,Sevilla,13,6,1987,Man,2.73,1.0,,Grup C,Jordi García,Non,Yes,1987-06-13,38,Grup C,2.0,2.78
+732,Joan,Martínez,Espanya,Sevilla,26,5,1976,Man,2.817,,1.0,Grup C,Joan Martínez,Non,No,1976-05-26,49,Grup C,2.0,2.87
+736,Marta,Martínez Romero,Espanya,Sevilla,7,9,1955,Woman,1.962,,1.0,Grup C,Marta Martínez Romero,Non,No,1955-09-07,70,Grup C,2.0,2.0
+776,Pau,Sánchez,Espanya,Sevilla,20,10,1953,Man,2.765,,1.0,Grup C,Pau Sánchez,Non,No,1953-10-20,72,Grup C,2.0,2.82
+790,Eva,Romero,Espanya,Sevilla,16,11,1964,NaN,1.96,,1.0,Grup C,Eva Romero,Non,No,1964-11-16,61,Grup C,2.0,2.0
+836,Oriol,Romero Romero,Espanya,Sevilla,11,7,1964,Others,1.95,,1.0,Grup C,Oriol Romero Romero,Non,No,1964-07-11,61,Grup C,2.0,1.99
+862,Núria,Sánchez Romero,Espanya,Sevilla,9,1,1974,Woman,1.901,,1.0,Grup C,Núria Sánchez Romero,Non,No,1974-01-09,52,Grup C,2.0,1.94
+910,Jordi,Castells,Espanya,Sevilla,14,12,1986,Others,2.259,1.0,,Grup C,Jordi Castells,Non,Yes,1986-12-14,39,Grup C,2.0,2.3
+959,Marc,Sánchez García,Espanya,Sevilla,4,3,1974,Others,1.611,1.0,,Grup C,Marc Sánchez García,Non,Yes,1974-03-04,52,Grup C,2.0,1.64
+965,Laia,Romero López,Espanya,Sevilla,23,6,2005,Woman,2.36,,1.0,Grup C,Laia Romero López,Non,No,2005-06-23,20,Grup C,2.0,2.41
+57,Toni,Martínez,Espanya,València,12,9,1992,Man,2.549,1.0,,Grup C,Toni Martínez,Non,Yes,1992-09-12,33,Grup C,2.0,2.6
+106,Pau,López Martínez,Espanya,València,1,1,1988,Man,2.805,,1.0,Grup C,Pau López Martínez,Non,No,1988-01-01,38,Grup C,2.0,2.86
+124,Marta,Romero,Espanya,València,3,12,1958,Woman,1.532,,1.0,Grup C,Marta Romero,Non,No,1958-12-03,67,Grup C,2.0,1.56
+279,Clara,Castells Castells,Espanya,València,15,8,1962,Woman,2.326,1.0,,Grup C,Clara Castells Castells,Non,Yes,1962-08-15,63,Grup C,2.0,2.37
+392,Marc,García Ferrer,Espanya,València,21,5,1968,Man,2.143,1.0,,Grup C,Marc García Ferrer,Non,Yes,1968-05-21,57,Grup C,2.0,2.19
+421,Carla,Sánchez Romero,Espanya,València,17,10,1959,Woman,2.405,1.0,,Grup C,Carla Sánchez Romero,Non,Yes,1959-10-17,66,Grup C,2.0,2.45
+472,Jordi,García García,Espanya,València,18,6,1967,Man,2.391,1.0,,Grup C,Jordi García García,Non,Yes,1967-06-18,58,Grup C,2.0,2.44
+524,Marc,Romero Ferrer,Espanya,València,22,9,1993,Man,1.743,1.0,,Grup C,Marc Romero Ferrer,Non,Yes,1993-09-22,32,Grup C,2.0,1.78
+581,Laia,Romero Martínez,Espanya,València,18,7,1963,Others,2.049,,1.0,Grup C,Laia Romero Martínez,Non,No,1963-07-18,62,Grup C,2.0,2.09
+589,Carla,Ferrer García,Espanya,València,25,2,1970,Woman,2.514,,1.0,Grup C,Carla Ferrer García,Non,No,1970-02-25,56,Grup C,2.0,2.56
+601,Pau,García,Espanya,València,1,3,2000,Man,2.39,,1.0,Grup C,Pau García,Non,No,2000-03-01,26,Grup C,2.0,2.44
+653,Marta,López,Espanya,València,4,11,1971,Woman,2.351,1.0,,Grup C,Marta López,Non,Yes,1971-11-04,54,Grup C,2.0,2.4
+691,Toni,Martínez,Espanya,València,13,7,1978,Man,1.928,1.0,,Grup C,Toni Martínez,Non,Yes,1978-07-13,47,Grup C,2.0,1.97
+707,Carla,López López,Espanya,València,9,10,1970,Woman,2.201,,1.0,Grup C,Carla López López,Non,No,1970-10-09,55,Grup C,2.0,2.25
+792,Jordi,Romero,Espanya,València,1,1,1973,Man,2.306,,1.0,Grup C,Jordi Romero,Non,No,1973-01-01,53,Grup C,2.0,2.35
+895,Marc,García Castells,Espanya,València,20,12,1983,Man,2.912,1.0,,Grup C,Marc García Castells,Non,Yes,1983-12-20,42,Grup C,2.0,2.97
+944,Laia,Sánchez,Espanya,València,17,7,1967,Woman,2.255,,1.0,Grup C,Laia Sánchez,Non,No,1967-07-17,58,Grup C,2.0,2.3
+333,Élise,Dubois,França,Lió,4,12,1950,Woman,1.87,,1.0,Grup C,Élise Dubois,Non,No,1950-12-04,75,Grup C,2.0,1.91
+797,Camille,Girard Lefevre,França,Marsella,7,12,2003,Woman,2.447,1.0,,Grup C,Camille Girard Lefevre,Non,Yes,2003-12-07,22,Grup C,2.0,2.5
+330,Élise,Lefevre,França,París,7,11,1972,Woman,1.696,1.0,,Grup C,Élise Lefevre,Non,Yes,1972-11-07,53,Grup C,2.0,1.73
+973,Élise,Moreau,França,París,9,10,1959,Woman,2.107,1.0,,Grup C,Élise Moreau,Non,Yes,1959-10-09,66,Grup C,2.0,2.15
+151,Gabriela,Ramírez González,Mèxic,Ciutat de Mèxic,7,5,1980,Woman,2.356,,1.0,Grup C,Gabriela Ramírez González,Non,No,1980-05-07,45,Grup C,2.0,2.4
+969,Andrés,Hernández Hernández,Mèxic,Ciutat de Mèxic,11,12,1983,Man,2.172,,1.0,Grup C,Andrés Hernández Hernández,Non,No,1983-12-11,42,Grup C,2.0,2.22
+60,José,Ramírez Hernández,Mèxic,Guadalajara,11,6,1966,Man,1.929,,1.0,Grup C,José Ramírez Hernández,Non,No,1966-06-11,59,Grup C,2.0,1.97
+505,María,Cruz,Mèxic,Guadalajara,27,1,1963,Woman,2.413,,1.0,Grup C,María Cruz,Non,No,1963-01-27,63,Grup C,2.0,2.46
+807,Luisa,Ramírez,Mèxic,Guadalajara,8,6,1984,Woman,1.86,,1.0,Grup C,Luisa Ramírez,Non,No,1984-06-08,41,Grup C,2.0,1.9
+847,Camila,Hernández,Mèxic,Guadalajara,26,9,1978,Woman,2.295,1.0,,Grup C,Camila Hernández,Non,Yes,1978-09-26,47,Grup C,2.0,2.34
+931,Camila,Cruz Ramírez,Mèxic,Guadalajara,4,10,1994,Woman,1.824,1.0,,Grup C,Camila Cruz Ramírez,Non,Yes,1994-10-04,31,Grup C,2.0,1.86
+23,Miguel,Oliveira Pereira,Portugal,Lisboa,19,9,1978,Man,2.249,,1.0,Grup C,Miguel Oliveira Pereira,Non,No,1978-09-19,47,Grup C,2.0,2.29
+955,Inês,Silva,Portugal,Lisboa,28,2,1980,Woman,1.558,1.0,,Grup C,Inês Silva,Non,Yes,1980-02-28,46,Grup C,2.0,1.59
+964,Rui,Oliveira,Portugal,Lisboa,9,3,1951,Man,1.894,,1.0,Grup C,Rui Oliveira,Non,No,1951-03-09,75,Grup C,2.0,1.93
+634,Maria,Silva,Portugal,Porto,14,12,1991,Others,2.458,,1.0,Grup C,Maria Silva,Non,No,1991-12-14,34,Grup C,2.0,2.51
+102,Sophie,Brown,Regne Unit,Londres,12,5,1956,Woman,1.532,,1.0,Grup C,Sophie Brown,Non,No,1956-05-12,69,Grup C,2.0,1.56
+113,Olivia,Jones Brown,Regne Unit,Londres,20,1,1965,Others,2.46,1.0,,Grup C,Olivia Jones Brown,Non,Yes,1965-01-20,61,Grup C,2.0,2.51
+443,Isla,Brown Jones,Regne Unit,Londres,5,3,1954,Others,2.28,1.0,,Grup C,Isla Brown Jones,Non,Yes,1954-03-05,72,Grup C,2.0,2.33
+610,Isla,Smith Brown,Regne Unit,Londres,24,9,1991,Woman,2.169,1.0,,Grup C,Isla Smith Brown,Non,Yes,1991-09-24,34,Grup C,2.0,2.21
+930,Sophie,Brown,Regne Unit,Londres,17,5,1983,Woman,2.189,1.0,,Grup C,Sophie Brown,Non,Yes,1983-05-17,42,Grup C,2.0,2.23
